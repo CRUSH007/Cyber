@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>CYBER | ALTU</title>
+		<link rel="stylesheet" href="./css/main.css" />
+
+		<link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg" />
+		<link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png" />
+	</head>
+
+	<body>
+		<header class="header">
+			<div class="container">
+				<div class="header__row">
+					<div class="logo">
+						<svg class="icon icon--logo">
+							<use href="./img/svgsprite/sprite.symbol.svg#logo"></use>
+						</svg>
+					</div>
+					<div class="search-field">
+						<svg class="icon icon--search">
+							<use href="./img/svgsprite/sprite.symbol.svg#search"></use>
+						</svg>
+						<input type="search" placeholder="Search..." />
+					</div>
+					<nav class="header__nav nav">
+						<ul class="nav__list">
+							<li><a class="nav__link-item active" href="index.html">Home</a></li>
+							<li><a class="nav__link-item" href="#!">About</a></li>
+							<li><a class="nav__link-item" href="#!">Contact Us</a></li>
+							<li><a class="nav__link-item" href="#!">Blog</a></li>
+						</ul>
+					</nav>
+					<div class="header__actions">
+						<a href="#!">
+							<svg class="icon icon--favorites">
+								<use href="./img/svgsprite/sprite.symbol.svg#favorites"></use>
+							</svg>
+						</a>
+						<a href="#!">
+							<svg class="icon icon--Cart1">
+								<use href="./img/svgsprite/sprite.symbol.svg#Cart1"></use>
+							</svg>
+						</a>
+						<a href="#!">
+							<svg class="icon icon--user">
+								<use href="./img/svgsprite/sprite.symbol.svg#user"></use>
+							</svg>
+						</a>
+					</div>
+					<button class="mobile-nav-btn">
+						<div class="nav-icon"></div>
+					</button>
+				</div>
+			</div>
+		</header>
+		<div class="mobile-nav">
+			<ul class="mobile-nav__list">
+				<li><a href="index.html">Главная</a></li>
+				<li><a href="docs.html">Документация</a></li>
+			</ul>
+		</div>
+
+		<section class="banner">
+			<div class="container">
+				<div class="banner-inner">
+					<div class="banner-content">
+						<h1 class="banner-title">
+							<span>Pro.Beyond.</span><br />
+							IPhone 14 <b>Pro</b>
+						</h1>
+						<p class="banner-slogan">Created to&#160;change everything for the better. For everyone</p>
+						<a href="" class="btn btn-banner">Shop Now</a>
+					</div>
+					<div class="banner-picture">
+						<picture>
+							<source srcset="./img/banner/ine.webp 1x, ./img/banner/ine@2x.webp 2x" type="image/webp" />
+							<source srcset="./img/banner/ine.png 1x, ./img/banner/ine@2x.png 2x" type="image/png" />
+							<img src="./img/banner/ine.png" alt="Iphone" />
+						</picture>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<script src="./js/index.bundle.js"></script>
+	</body>
+</html>
